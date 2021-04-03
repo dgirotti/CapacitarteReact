@@ -1,14 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
+import Navegacion from './Navegacion';
+
+
+function Saludo(){
+  return(
+    <h1>Mi Primera App en React</h1>
+  );
+}
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        
+      <Navegacion/>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,6 +27,11 @@ function App() {
         >
           Learn React
         </a>
+        
+        <Saludo/> {/* llamo a la funcion saludo */}
+        
+
+
       </header>
     </div>
   );
