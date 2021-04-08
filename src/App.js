@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         
-      <Navegacion/>
+      <Navegacion/> {/* llamo a la funcion navigation que esta en navigation.js */}
         <img src={logo} className="App-logo" alt="logo" />
       
         <a
