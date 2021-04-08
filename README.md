@@ -1,3 +1,28 @@
+npm install -g create-react-app
+create-react-app nombre del proyecto -> esto lo tengo que hacer con cada proyecto que quiero crear en React
+Created git commit.
+
+Success! Created miapp at /Users/dgirotti/Desktop/miapp
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd miapp
+  npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
