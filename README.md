@@ -10,6 +10,7 @@ Inside that directory, you can run several commands:
 
   npm run build
     Bundles the app into static files for production.
+    To create a production build, use npm run build. Creo el ejecutable que se sube al host. 
 
   npm test
     Starts the test runner.

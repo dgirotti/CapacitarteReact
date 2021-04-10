@@ -1,24 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-import Navegacion from './Navegacion';
+import Navegacion from './Componentes/Navegacion';
+import Pepe from './Componentes/Pepe';
 
 
-function Saludo(){
-  return(
+function Saludo() {
+  return (
     <h1>Mi Primera App en React</h1>
   );
 }
-
-
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
-      <Navegacion/> {/* llamo a la funcion navigation que esta en navigation.js */}
+
+        <Navegacion /> {/* llamo a la funcion Navegacion() que esta en Navegacion.js */}
+
         <img src={logo} className="App-logo" alt="logo" />
-      
+
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -27,10 +27,10 @@ function App() {
         >
           Learn React
         </a>
-        
-        <Saludo/> {/* llamo a la funcion saludo */}
-        
+        <br></br>
 
+        <Saludo /> {/* llamo a la funcion Saludo() definida arriba */}
+        <Pepe dato="Soy el componente de tipo Clase" />  {/* llamo a la clase Pepe con el parametro dato */}
 
       </header>
     </div>
