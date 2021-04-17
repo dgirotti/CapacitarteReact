@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Navegacion from './Componentes/Navegacion';
 import Pepe from './Componentes/Pepe';
+import Contador from './Componentes/EjercicioClase5';
+import Api from './Componentes/Api';
 
 
 function Saludo() {
@@ -28,10 +30,11 @@ function App() {
           Learn React
         </a>
         <br></br>
-
+        
         <Saludo /> {/* llamo a la funcion Saludo() definida arriba */}
         <Pepe dato="Soy el componente de tipo Clase" />  {/* llamo a la clase Pepe con el parametro dato */}
-
+        <Contador/>
+        <Api/>
       </header>
     </div>
   );
